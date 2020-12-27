@@ -1,0 +1,88 @@
+.search-panel input {
+  height: 20px;
+}
+
+.sort-panel select {
+  height: 25px;
+  margin-right: 5px;
+}
+
+.card.add-meeting {
+  display: block;
+}
+
+.add-meeting .card-body {
+  display: none;
+}
+
+.meeting-addheading {
+  cursor: pointer;
+  user-select: none;
+}
+
+.meeting-list {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.meeting-list .meeting-item {
+  padding: 5px 0;
+  border-bottom: 1px dashed gray;
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap;  */
+}
+
+.meeting-delete,
+.meeting-body,
+.meeting-details {
+  flex: 1;
+}
+
+.meeting-delete {
+  max-width: 50px;
+}
+
+.meeting-body {
+  max-width: 40%;
+}
+
+.meeting-list .meeting-item:last-child {
+  border-bottom: none;
+}
+
+.meeting-list .contact-name {
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 100%;
+}
+
+.meeting-list .label-item {
+  font-weight: normal;
+  /* color: #667b82; */
+  color: #232f3e;
+}
+
+.meeting-list .meeting-notes {
+  line-height: 120%;
+  /* margin-top: 5px; */
+}
+
+.card-body {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.card-body div {
+  margin-bottom: 10px;
+}
+
+.card-body label {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.card-body button {
+  margin-right: 20px;
+}
