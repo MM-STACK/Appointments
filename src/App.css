@@ -1,3 +1,11 @@
+body { 
+  background-color: #ded097;
+  background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+ 
+  font-size: 14px;
+  overflow: hidden;   
+}
+
 .main-container {
   margin-left: auto;
   margin-right: auto;
